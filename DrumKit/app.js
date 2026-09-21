@@ -1,5 +1,3 @@
-console.log("Mahadev Mahadev");
-
 function playAudio(keyValue){
     const audio = document.querySelector(`audio[data-key = "${keyValue}"]`)
     const key = document.querySelector(`.key[data-key="${keyValue}"]`)
